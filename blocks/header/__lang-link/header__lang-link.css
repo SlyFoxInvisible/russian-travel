@@ -1,0 +1,32 @@
+.header__lang-link {
+  font-size: 28px;
+  color: #ffff;
+  line-height: 28px;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+.header__lang-link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;
+}
+/* 
+.header__lang-link:first-child {
+  text-decoration: underline;
+} */
+
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}

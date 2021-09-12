@@ -1,0 +1,25 @@
+.footer__link {
+  display: flex;
+  text-decoration: none;
+  color: #ffff;
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 88px 18px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__link {
+    margin: 92px 18px 24px 0px;
+  }
+}
