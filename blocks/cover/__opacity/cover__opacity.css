@@ -1,0 +1,23 @@
+.cover__opacity {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.cover__opacity::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cover__opacity:hover::after {
+  opacity: 0.6;
+  transition: opacity 0.8s;
+}

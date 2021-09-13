@@ -1,19 +1,7 @@
-/* .cover__background {
-  background-image: url("../../../images/cover-trains.jpg");
-  max-width: 1184px;
-  max-height: 740px;
-  background-size: cover;
-  background-position: center;
-  text-decoration: none;
-  position: relative;
-  margin: 0 auto 0 auto;
-  opacity: 0.5;
-} */
-
 .cover__background {
   background-image: url("../../../images/cover-trains.jpg");
   margin: 0 auto 0 auto;
   width: 1184px;
+
   background-size: cover;
-  text-decoration: none;
 }
