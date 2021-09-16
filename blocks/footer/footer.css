@@ -2,6 +2,7 @@
   /* min-width: 186px; */
   /* max-width: 1184px; */
   margin: 0 auto 0 auto;
+  min-height: 18px;
 }
 
 @media screen and (min-width: 768px) {
