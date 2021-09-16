@@ -1,7 +1,5 @@
 .lead__title {
-  margin: 0;
   text-align: center;
-  /* margin: 48px 16px 16px; */
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
@@ -14,8 +12,6 @@
     min-width: 720px;
     font-size: 96px;
     line-height: 100px;
-    margin: 0 auto;
-    /* margin: 48px 24px 32px; */
   }
 }
 
@@ -23,6 +19,5 @@
   .lead__title {
     margin: 0;
     margin: 0 auto;
-    /* margin: 0 152px 32px; */
   }
 }
