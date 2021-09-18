@@ -1,6 +1,25 @@
 .cover {
   display: flex;
-  /* width: 1024px; */
-  /* margin: 66px auto 0 auto; */
-  margin-top: 92px;
+  margin: 92px auto 64px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+    margin-bottom: 88px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    margin-top: 66px;
+  }
 }

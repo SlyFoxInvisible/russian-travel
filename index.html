@@ -6,21 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
 
-    <title>Russian Travel</title>
+    <title>Путешествия по России</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
         <img class="header__logo" src="./images/header-logo.svg" alt="Россия" />
-        <a class="header__lang-link header__lang-link-ru" href="#">Ru</a>
-        <a class="header__lang-link" href="#">En</a>
+        <a
+          class="header__lang-link header__lang-link_active"
+          href="./index.html"
+          >Ru</a
+        >
+        <a
+          class="header__lang-link header__lang-link_disabled"
+          href="./index_en.html"
+          >En</a
+        >
       </header>
       <main class="content">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
-          <h2 class="lead__subtitle">
-            Настоящая страна не в выпусках новостей, а здесь
-          </h2>
+          <p class="lead__subtitle">
+            Настоящая страна не в выпусках новостей, а здесь.
+          </p>
           <img class="lead__image" src="./images/lead-polka.jpg" alt="Поезд" />
           <p class="lead__caption">Ваша полка - верхняя</p>
         </section>
@@ -121,7 +129,7 @@
 
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="https://park-kosa.ru"
+              <a class="place__link" target="_blank" href="https://park-kosa.ru"
                 >park-kosa.ru</a
               >
             </div>
@@ -155,6 +163,7 @@
               <p class="place__url-heading">URL</p>
               <a
                 class="place__link"
+                target="_blank"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 >National Geographic</a
               >
@@ -188,6 +197,7 @@
               <p class="place__url-heading">URL</p>
               <a
                 class="place__link"
+                target="_blank"
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                 >Facebook</a
               >
@@ -219,7 +229,10 @@
 
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="https://vk.com/baikalmile"
+              <a
+                class="place__link"
+                href="https://vk.com/baikalmile"
+                target="_blank"
                 >https://vk.com/baikalmile</a
               >
             </div>
@@ -246,10 +259,9 @@
           </div>
           <div class="place">
             <h2 class="place__title">Карелия</h2>
-
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="http://vodlozero.ru"
+              <a class="place__link" href="http://vodlozero.ru" target="_blank"
                 >http://vodlozero.ru/</a
               >
             </div>
@@ -277,6 +289,7 @@
         <section class="cover">
           <a
             class="cover__opacity"
+            target="_blank"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
           >
             <div class="cover__background">
@@ -292,10 +305,22 @@
 
       <footer class="footer">
         <nav class="footer__links">
-          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-          <a class="footer__link" href="https://calendar.yandex.ru"
+          <a class="footer__link" target="_blank" href="https://yandex.ru/maps"
+            >Карты</a
+          >
+          <a
+            class="footer__link"
+            target="_blank"
+            href="https://yandex.ru/pogoda"
+            >Погода</a
+          >
+          <a class="footer__link" target="_blank" href="https://rasp.yandex.ru"
+            >Расписание</a
+          >
+          <a
+            class="footer__link"
+            target="_blank"
+            href="https://calendar.yandex.ru"
             >Календарь</a
           >
           <a class="footer__link" href="https://travel.yandex.ru"

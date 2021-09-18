@@ -1,6 +1,6 @@
 .footer__links {
   padding: 0;
-  margin: 64px 118px 48px 16px;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {

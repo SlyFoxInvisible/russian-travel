@@ -1,12 +1,10 @@
 .cover__opacity {
-  display: flex;
   flex-direction: column;
   position: relative;
   z-index: 1;
   text-decoration: none;
-  /* min-width: 740px; */
-  /* min-height: 740px; */
   margin: 0 auto 0 auto;
+  min-width: 100%;
 }
 
 .cover__opacity::after {
