@@ -19,12 +19,6 @@
   .footer__link {
     font-size: 16px;
     line-height: 18px;
-    margin: 88px 18px 24px 0;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__link {
-    margin: 92px 18px 24px 0px;
+    margin: 0 18px 24px 0;
   }
 }
