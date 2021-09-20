@@ -7,5 +7,10 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  max-width: 690px;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__list {
+    max-width: 690px;
+  }
 }

@@ -4,7 +4,7 @@
   z-index: 1;
   text-decoration: none;
   margin: 0 auto 0 auto;
-  min-width: 100%;
+  width: 100%;
 }
 
 .cover__opacity::after {
@@ -23,3 +23,21 @@
   opacity: 80%;
   transition: opacity 0.8s;
 }
+
+/* @media screen and (max-width: 1024px) {
+  .cover__opacity {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__opacity {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__opacity {
+    max-width: 320px;
+  }
+} */
