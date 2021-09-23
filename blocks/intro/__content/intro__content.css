@@ -1,3 +1,15 @@
 .intro__content {
-  max-width: 690px;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__content {
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__content {
+    max-width: 720px;
+  }
 }
